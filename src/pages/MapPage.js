@@ -1,11 +1,8 @@
 import React from 'react';
+import MapGLContainer from 'containers/map/MapGLContainer';
 
 const MapPage = () => {
-  return (
-    <>
-      <div>맵 페이지</div>
-    </>
-  );
+  return <MapGLContainer></MapGLContainer>;
 };
 
 export default MapPage;

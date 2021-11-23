@@ -7,6 +7,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import rootReducer, { rootSaga } from './modules';
 import createSagaMiddleware from 'redux-saga';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
